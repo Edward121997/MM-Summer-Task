@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>
+news.com.in
+</title>
+
+<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			 <link rel="stylesheet" href="css/bootstrap-override.css" />
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+			
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<!--style-->
+<style>
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;}
+
+	.fa-facebook {
+background: #3B5998;
+color: white;
+}
+ 	.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+ 	.fa-google {
+background: #dd4b39;
+color: white;
+}
+
+#round{
+    padding: 20px;
+    font-size: 15px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none; 
+	border-radius:75%;
+
+}
+#bar{
+font-size:20px;
+color:#D6D6D6;}
+
+.glyphicon{
+ font-size:20px;
+}
+
+.footpart
+{background:#020104;
+border:3px solid rgb(22,77,100);
+padding:40px;
+color:#D6D6D6;
+margin:40px 0px 10px 0px;
+font-family:times;
+font-weight:bold;
+font-size:16px;
+}	
+
+.content{
+border:4px groove;
+padding:20px 20px 20px 4px;
+font-weight:bold;
+color:rgb(94,47,26);
+font-family:Georgia;
+}
+
+form{
+padding:10px 10px 10px 10px;}
+
+.navbar-default{
+color:rgb(7,24,5);
+background-color:rgb(42,93,13);
+}
+
+.logopart{
+padding 20px 10px 20px 10px;
+margin:40px 0px 10px 0px; }
+
+.text
+{
+  text-align:center;
+  color: Azure;
+  font-size: 35px;
+  padding: 200px 20px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+}
+.border-right{
+border-right: 1px solid black;}
+
+.pic{
+padding:0px 0px 0px 0px;
+margin: 2px 5px 2px 5px;}
+	
+	
+</style>
+
+
+
+
+<body>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+
+<div class='row'>
+<div class='col-md-12'>
+<nav class='navbar navbar-default navbar-fixed-top'>
+<div class='container-fluid'>
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+	  
+	  <div class='collapse navbar-collapse' id='myNavbar'>
+<ul class='nav navbar-nav'>
+<li class='active'><a href='#'><strong style='color:rgb(255,255,255)'>HOME</strong></a></li>
+
+ <li class='dropdown'><a class="dropdown-toggle" data-toggle="dropdown" href='#'><strong style='color:rgb(255,255,255)'>NATIONAL</strong>
+<span class='caret'></span></a>
+<ul class='dropdown-menu'>
+<li><a href='#'>Breaking-News</a></li>
+<li class="divider"></li>
+<li><a href='#'>Politics</a></li>
+<li class="divider"></li>
+<li><a href='#'>Crime</a></li>
+<li class="divider"></li>
+<li><a href='#'>Weather</a></li>
+</ul>
+</li> 
+
+
+
+<li class='dropdown'><a class='dropdown-toggle' data-toggle='dropdown' href='#'><strong style='color:rgb(255,255,255)'>INTERNATIONAL</strong>
+<span class='caret'></span></a> 
+<ul class='dropdown-menu'>
+<li><a href='#'>Europe</a></li>
+<li class="divider"></li>
+<li><a href='#'>Asia</a></li>
+<li class="divider"></li>
+<li><a href='#'>America</a></li>
+<li class="divider"></li>
+<li><a href='#'>Middle east</a></li>
+<li class="divider"></li>
+<li><a href='#'>Autralia</a></li>
+</ul>
+</li>
+
+<li class='dropdown'><a class='dropdown-toggle' data-toggle='dropdown' href='#'><strong style='color:rgb(255,255,255)'>ENTERTAINMENT</strong>
+<span class='caret'></span></a>
+<ul class='dropdown-menu'>
+<li><a href='#'>Awards</a></li>
+<li class="divider"></li>
+<li><a href='#'>Movies</a></li>
+<li class="divider"></li>
+<li><a href='#'>Music</a></li>
+<li class="divider"></li>
+<li><a href='#'>Celebrity</a></li>
+</ul>
+</li>
+
+ 
+<li class='dropdown'><a class='dropdown-toggle' data-toggle='dropdown' href='#'><strong style='color:rgb(255,255,255)'>SPORTS</strong>
+<span class='caret'></span></a>
+<ul class='dropdown-menu'>
+<li><a href='#'>Cricket</a></li>
+<li class="divider"></li>
+<li><a href='#'>Football</a></li>
+<li class="divider"></li>
+<li><a href='#'>Hockey</a></li>
+<li class="divider"></li>
+<li><a href='#'>IPL</a></li>
+</ul>
+</li>
+ </ul>
+
+<ul class='nav navbar-nav navbar-right'><li> <a href='#'><span class='glyphicon glyphicon-user'></span> <strong style='color:rgb(255,255,255)'>SIGN UP</strong></a></li>
+<li > <a href='#'><span class='glyphicon glyphicon-log-in'></span> <strong style='color:rgb(255,255,255)'>LOG IN</strong></a></li>
+</ul>
+</div>
+</div>
+</nav>
+</div>
+</div>
+
+</br>
+</br>
+
+<!--logo of news channnel-->
+<div class='container'>
+<div class='logopart'>
+<div class='row'>
+<div class='jumbotron container'>
+<div class='col-md-4'>
+<img src='#' class='img-circle img-responsive' />
+</div>
+<div class='col-md-6 col-md-offset-2'>
+<h2> Name of the News Website</h2>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<!--content part-->
+
+
+
+<div class='container'> 
+<div class='row'>
+<div class='col-md-6 border-right'>
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="1500">
+<ol class='carousel-indicators'>
+<li data-target='#myCarousel' data-slide-to='0' class='active'></li>
+<li data-target='#myCarousel' data-slide-to='1'></li>
+<li data-target='#myCarousel' data-slide-to='2'></li>
+</ol>
+<div class='carousel-inner'>
+<div class='item active'>
+<img src='C:\Users\USER\Desktop\phase 2\pictures\TerrorAttackManchester-808044.jpg' alt='kabul blast' width='600' height='350px'>
+<div class='text'>
+<h3>ISIS targets Manchester</h3>
+<p></p>
+</div>
+</div>
+
+<div class='item'>
+<img src='C:\Users\USER\Desktop\phase 2\pictures\e4985460eeec404b9213b2d49dff6c99_18.jpg' width='600px' height='350px'>
+<div class='text'>
+<h3>Taliban attack in Kabul</h3>
+<p></p>
+</div>
+</div>
+
+<div class='item'>
+<img src='C:\Users\USER\Desktop\phase 2\pictures\ct-m.jpg' width='600px' height='350px'>
+<div class='text'>
+<h3>Champions Trophy 2K17</h3>
+
+</div>
+</div>
+</div>
+
+<a class="left carousel-control" href="#myCarousel" data-slide='prev'>
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">previous</span>
+</a>
+
+<a class="right carousel-control" href="#myCarousel" data-slide='next'>
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">next</span>
+</a>
+</div>
+</div>
+
+<div class='col-md-4 border-right'>
+<div style='font-family:georgia'>
+<div class='row'>
+<div class='col-md-3'>
+<div class='pic'>
+<img src='C:\Users\USER\Desktop\phase 2\pictures\403.jpg' width='100' height='80'>
+</div>
+</div>
+<div class='col-md-9'>
+<h5 style='padding:0px 5px 0px 13px'><strong style='font-size:20px'>Isis Targets Manchester 22 killed:</strong> <strong style='font-size:13px'>  22-year-old British Muslim Salman Ramadan Abedi detonated a shrapnel-laden homemade bomb at</strong></h5>
+</div>
+</div>
+<hr>
+
+<div class='row'>
+<div class='col-md-3'>
+<div class='pic'>
+<img src='C:\Users\USER\Desktop\phase 2\pictures\NORTH-KOREA-MISSILES-952518.jpg' width='100' height='80'>
+</div>
+</div>
+<div class='col-md-9'>
+<h5 style='padding:0px 5px 0px 13px'><strong style='font-size:20px'>NUKING ON THE DOOR</strong> <strong style='font-size:13px'>North Korea is now ‘only one step away’ from launching a nuclear missile which can hit America</strong></h5>
+</div>
+</div>
+<hr>
+<div class='row'>
+<div class='col-md-3'>
+<div class='pic'>
+<img src='C:\Users\USER\Desktop\phase 2\pictures\champions-madrid-celebrate-league-winning-trophy-after_1a2ec7ca-48a3-11e7-9f7a-23d54b55bc46.jpg' width='100' height='80'>
+</div>
+</div>
+<div class='col-md-9'>
+<h5 style='padding:0px 5px 0px 13px'><strong style='font-size:20px'>UEFA Champions League final RESULT</strong> <strong style='font-size:13px'>Cristiano Ronaldo at the double as Zinedine Zidane's side make history</strong></h5>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class='col-md-2'>
+
+</div>
+</div>
+<hr>
+
+
+<div class='row'>
+<div class='col-md-10 border-right'>
+<div class='row'>
+<div class='col-md-2'>
+<div style='padding:10px 20px 10px 10px'>
+<img src='C:\Users\USER\Desktop\phase 2\pictures\pay-commission-story_647_061317021746.jpg' width="150" height="120">
+</div>
+</div>
+<div class='col-md-10' style='font-family:times'>
+
+<h4 style='padding:10px 20px 0px 20px'><strong style='font-size:22px'>7th Pay Commission: Narendra Modi-led cabinet may decide on revised allowances for govt employees tomorrow:
+</strong></h4>
+<div  style='font-size:18px'>
+<p style='padding:0px 20px 0px 20px'>Central government employees, on several occasions, have expressed their disappointment over the long delay in rolling in out revised allowances.
+
+</p>
+</div>
+</div>
+</div>
+<hr>
+<div class='row'>
+<div class='col-md-2'>
+<div style='padding:10px 20px 10px 10px'>
+<img src='C:\Users\USER\Desktop\phase 2\pictures\vijaymallyapti_story_647_061317105542.jpg' width="150" height="120">
+</div>
+</div>
+<div class='col-md-10' style='font-family:times'>
+
+<h4 style='padding:10px 20px 0px 20px'><strong style='font-size:22px'>Vijay Mallya extradition case hearing today in London:
+
+</strong></h4>
+<div  style='font-size:18px'>
+<p style='padding:0px 20px 0px 20px'>Mallya, the former boss of now defunct Kingfisher Airlines, was arrested by the Scotland Yard in April but was released on bail.The extradition case of former Kingfisher Airlines boss Vijay Mallya will be heard in a London court today.
+</p>
+</div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+<div class='col-md-2'>
+<div class='jumbotron'>
+<h2>SEND YOU QUERIES BOX</h2>
+</div>
+
+</div>
+</div>
+
+<div class='row'>
+
+<h2 style='font-family:Georgia'>&nbsp  INTERNATIONAL</h2>
+<hr>
+</div>
+
+<div class='row'>
+
+<div class='col-md-6 border-right'>
+<div style="padding:5px 5px 5px 40px">
+<img src='C:\Users\USER\Desktop\phase 2\pictures\img_47521.jpg' alt='kabul blast' width='500' height='300px'/>
+<div style='font-family:georgia'>
+<h3><strong style='font-size:30px'>London attack: Four dead in Westminster terror attack:</strong></h3>
+<p style='font-size:16px'><strong>Three people have died and at least 40 have been injured after an attacker drove a car along a pavement in Westminster, stabbed a policeman and was shot dead by police in the grounds of Parliament.The dead officer was named as PC Keith Palmer, 48, a husband and father.PM Theresa May said the attack on Wednesday was "sick and depraved" and struck at values of liberty, democracy and freedom of speech.</strong></p>
+</div>
+</div>
+
+</div>
+
+<div class='col-md-4 border-right'>
+<div style='font-family:georgia'>
+<div class='row'>
+<div class='col-md-3'>
+<div class='pic'>
+<img src='C:\Users\USER\Desktop\phase 2\pictures\taiwan-story_647_061317021928.jpg' width='100' height='80'>
+</div>
+</div>
+<div class='col-md-9'>
+<h5 style='padding:0px 5px 0px 13px'><strong style='font-size:20px'>Taiwan slams Panama for establishing ties with China:</strong> <strong style='font-size:13px'>Taiwan today slammed Panama after it established diplomatic relations with China and cut ties with Taipei, accusing Beijing of using "money diplomacy" to sway the island nation.</strong></h5>
+</div>
+</div>
+<hr>
+
+<div class='row'>
+<div class='col-md-3'>
+<div class='pic'>
+<img src='C:\Users\USER\Desktop\phase 2\pictures\munich_shooting_ap_647_061317024717.jpg' width='100' height='80'>
+</div>
+</div>
+<div class='col-md-9'>
+<h5 style='padding:0px 5px 0px 13px'><strong style='font-size:20px'>Shooting at Munich subway station, several injured:</strong> <strong style='font-size:13px'>Munich police spokesman Michael Riehlein said that the incident occurred this morning when police were carrying out a check at the Unterfoehring subway station.</strong></h5>
+</div>
+</div>
+<hr>
+<div class='row'>
+<div class='col-md-3'>
+<div class='pic'>
+<img src='C:\Users\USER\Desktop\phase 2\pictures\theresa-may-story-fb_647_061017014504.jpg' width='100' height='80'>
+</div>
+</div>
+<div class='col-md-9'>
+<h5 style='padding:0px 5px 0px 13px'><strong style='font-size:20px'>UK PM Theresa May seen fighting for survival after election failure:</strong> <strong style='font-size:13px'>May's gamble that she could capitalise on Britons' desire to quit the European Union and perceived weakness in the opposition Labour Party backfired on Thursday.</strong></h5>
+</div>
+</div>
+
+
+
+
+
+</div>
+</div>
+
+<div class='col-md-2'>
+<div class='jumbotron'>
+<embed src="example.mpeg" autostart="false" height="30" width="144" />
+<h3> video of some news related topic</h3>
+</div>
+</div>
+</div>
+<!--NATIONAL-->
+
+<div class='row'>
+
+
+<h2 style='font-family:Georgia'>&nbsp  NATIONAL</h2>
+<hr>
+</div>
+
+<div class='row'>
+<div class='col-md-6 border-right'>
+<div style="padding:5px 5px 5px 40px">
+<img src='C:\Users\USER\Desktop\phase 2\pictures\rashtrapati-bhavan_647_061317054140.jpg' alt='kabul blast' width='500' height='300px'/>
+<div style='font-family:georgia'>
+<h3><strong style='font-size:30px'>Presidential election process starts tomorrow: 10 things to know:</strong></h3>
+<p style='font-size:16px'><strong>The electoral college for choosing the President consists of 4,896 voters. The election will see secret ballot and political parties can't issue a whip to MPs or MLAs.The process for electing India's 13th President will be set in motion formally on Wednesday when the Election Commission issues a notification paving the way for filing of nominations for the July 17 contest in which the ruling NDA seems to have an edge.
+
+
+</strong></p>
+</div>
+</div>
+
+</div>
+
+<div class='col-md-4 border-right'>
+<div style='font-family:georgia'>
+<div class='row'>
+<div class='col-md-3'>
+<div class='pic'>
+<img src='C:\Users\USER\Desktop\phase 2\pictures\farmers-story_647_061317113452.jpg' width='100' height='80'>
+</div>
+</div>
+<div class='col-md-9'>
+<h5 style='padding:0px 5px 0px 13px'><strong style='font-size:20px'>Maharashtra Government set to disburse advance of Rs 10,000 to farmers as immediate relief:
+</strong> <strong style='font-size:13px'>The Maharashtra government is set to release advance of Rs 10,000 to farmers to help them sow in Kharif season.
+
+</strong></h5>
+</div>
+</div>
+<hr>
+
+<div class='row'>
+<div class='col-md-3'>
+<div class='pic'>
+<img src='C:\Users\USER\Desktop\phase 2\pictures\bjp_647_061317023711.jpg' width='100' height='80'>
+</div>
+</div>
+<div class='col-md-9'>
+<h5 style='padding:0px 5px 0px 13px'><strong style='font-size:20px'>Beef 'stews' BJP in Goa, CM Manohar Parrikar caught between frozen slab of meat and a very hard place::</strong> <strong style='font-size:13px'>The beef controversy exploded in Goa a couple of weeks back, when a central government notification banning animal markets, led to a temporary beef shortage here.</strong></h5>
+</div>
+</div>
+<hr>
+<div class='row'>
+<div class='col-md-3'>
+<div class='pic'>
+<img src='C:\Users\USER\Desktop\phase 2\pictures\kashmirgirls_story_647_061317121315.jpg' width='100' height='80'>
+</div>
+</div>
+<div class='col-md-9'>
+<h5 style='padding:0px 5px 0px 13px'><strong style='font-size:20px'>Kashmir: Amid stone-pelting, violence, these young girls are chasing another goal:</strong> <strong style='font-size:13px'>Amid shutdown, Kashmiri students are taking up competitive sports to leave a mark across the country.
+
+</strong>
+</div>
+</div>
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+<div class='col-md-2'>
+<div class='jumbotron'> 
+<h3> Poll Questions</h3>
+</div>
+</div>
+</div>
+
+<div class='row'>
+<h2 style='font-family:Georgia'>&nbsp  SPORTS</h2>
+<hr>
+</div>
+<div class='row'>
+
+<div class='col-md-6 border-right'>
+<div style="padding:5px 5px 5px 40px">
+<img src='C:\Users\USER\Desktop\phase 2\pictures\bowlers647_061217070802.jpg' alt='kabul blast' width='500' height='300px'/>
+<div style='font-family:georgia'>
+<h3><strong style='font-size:30px'>Indian bowlers approach and effort commendable, says Harbhajan Singh:</strong></h3>
+<p style='font-size:16px'><strong> India rode on a superb bowling show to thump South Africa by eight wickets and become the first team from Group B to enter the semi-finals of the tournament.</br>
+</br>"It was a fantastic bowling effort from India. The pacers did a great job by bowling dot balls in the first 10 overs. It was the perfect example of how not to give away cheap runs. It surely must have made South Africa go on the back foot. That effort went a long way in helping India dominate South Africa
+."
+
+
+</strong></p>
+</div>
+</div>
+
+</div>
+
+<div class='col-md-4 border-right'>
+<div style='font-family:georgia'>
+<div class='row'>
+<div class='col-md-3'>
+<div class='pic'>
+<img src='C:\Users\USER\Desktop\phase 2\pictures\india-647_061317103307.jpg' width='100' height='80'>
+</div>
+</div>
+<div class='col-md-9'>
+<h5 style='padding:0px 5px 0px 13px'><strong style='font-size:20px'>AFC Asian Cup Qualifier: India beat Kyrgyz Republic, go three points clear atop Group A:
+</strong> <strong style='font-size:13px'>Thanks to a brilliant goal by captain Chhetri in the 69th minute, India scooped the match despite Kyrgyz Republic giving them a hard time..
+
+</strong></h5>
+</div>
+</div>
+<hr>
+
+<div class='row'>
+<div class='col-md-3'>
+<div class='pic'>
+<img src='C:\Users\USER\Desktop\phase 2\pictures\nadal647_061317054700.jpg' width='100' height='80'>
+</div>
+</div>
+<div class='col-md-9'>
+<h5 style='padding:0px 5px 0px 13px'><strong style='font-size:20px'>Rafael Nadal first to qualify for ATP World Tour Finals in November
+::</strong> <strong style='font-size:13px'>Rafael Nadal, on Sunday, won the French Open title for a record 10th time after first winning the Roland Garros in 2005.
+
+.</strong></h5>
+</div>
+</div>
+<hr>
+<div class='row'>
+<div class='col-md-3'>
+<div class='pic'>
+<img src='C:\Users\USER\Desktop\phase 2\pictures\saina647_061317034716.jpg' width='100' height='80'>
+</div>
+</div>
+<div class='col-md-9'>
+<h5 style='padding:0px 5px 0px 13px'><strong style='font-size:20px'>Indonesia Open: Saina Nehwal edges past Ratchanok Intanon to enter second round:</strong> <strong style='font-size:13px'>Saina Nehwal bounced back from a game down to register a 17-21, 21-18, 21-12 win over the eighth seeded Intanon in a grueling contest that lasted for 57 minutes.
+
+</strong>
+</div>
+</div>
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+<div class='col-md-2'>
+<div class='jumbotron'> 
+<h3> Short Headlines</h3>
+</div>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+<!--footer-->
+
+<div class='container-fluid'>
+<div class='footpart'>
+<div class='row'>
+<div class='col-md-3'>
+<h3 style='font-size:30px'>About Us</h3>
+<p>You are associated with india's most widely connected News channel.You</br> can get all the updates all over the</br> world just with your finger tips.</p>
+</br>
+<h4>Stay connected with us for more updates</h4>
+
+<a href='#' class='fa fa-facebook' id='round' ></a>
+<a href='#' class='fa fa-twitter' id='round'></a>
+<a href='#' class='fa fa-google' id='round'></a>
+</br>
+</br>
+</div>
+<div class='col-md-2 col-md-offset-2'>
+<h3 style='font-size:30px'>Short Links</h3>
+<ul>
+<li id='bar'><a href='#'>Home</a></li>
+<li id='bar'><a href='#'>International</a></li>
+<li id='bar'><a href='#'>National</a></li>
+<li id='bar'><a href='#'>Entertainment</a></li>
+<li id='bar'><a href='#'>Sports</a></li>
+</ul>
+</div>
+
+<div class='col-md-2 col-md-offset-3'>
+<h3 style='font-size:30px'>Contact Us</h3>
+<span class='glyphicon glyphicon-map-marker'></span>
+221 Baker Street </br> <strong style='font-size:22px'>&nbsp &nbsp NewDelhi,India</strong>
+</br>
+</br>
+<span class='glyphicon glyphicon-earphone'></span><strong style='font-size:18px'>+91-555-123456</strong>
+</br></br>
+<span class='glyphicon glyphicon-envelope'></span><a href='support@newsIndia.com'><strong style='font-size:18px'>support@newsIndia.com</strong></a>
+</div>
+
+</div>
+
+
+<div class='row'>
+<center><h4 style='font-size:24px'>copyright @2011-2018 Kaliprasad</h4></center>
+</div>
+</div>
+</div>
+
+
+
+
+</body>
+</html>
