@@ -1,0 +1,402 @@
+  <!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>
+news.com.in
+</title>
+
+<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			 <link rel="stylesheet" href="css/bootstrap-override.css" />
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+			
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<!--style-->
+<style>
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;}
+
+	.fa-facebook {
+background: #3B5998;
+color: white;
+}
+ 	.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+ 	.fa-google {
+background: #dd4b39;
+color: white;
+}
+
+#round{
+    padding: 20px;
+    font-size: 15px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none; 
+	border-radius:75%;
+
+}
+#bar{
+font-size:20px;
+color:#D6D6D6;}
+
+.glyphicon{
+ font-size:20px;
+}
+
+.footpart
+{background:#020104;
+border:3px solid rgb(22,77,100);
+padding:40px;
+color:#D6D6D6;
+margin:40px 0px 10px 0px;
+font-family:times;
+font-weight:bold;
+font-size:16px;
+}	
+
+.content{
+border:4px groove;
+padding:20px 20px 20px 4px;
+font-weight:bold;
+color:rgb(94,47,26);
+font-family:Georgia;
+}
+
+form{
+padding:10px 10px 10px 10px;}
+
+.navbar-default{
+color:rgb(7,24,5);
+background-color:rgb(42,93,13);
+}
+
+.logopart{
+padding 20px 10px 20px 10px;
+margin:40px 0px 10px 0px; }
+
+
+}
+.border-right{
+border-right: 1px solid black;}
+
+
+.twiiting{
+color:rgb(10,96,83);
+font-style:italic;
+text-align:center;
+
+}
+
+.border-right{
+border-right: 1px solid black;}
+
+.body{
+border:4px groove;
+padding:20px 10px 20px 10px;
+margin:10px 10px 10px 10px;
+
+}
+
+	
+</style>
+
+
+
+
+<body>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+
+<div class='row'>
+<div class='col-md-12'>
+<nav class='navbar navbar-default navbar-fixed-top'>
+<div class='container-fluid'>
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+	  
+	  <div class='collapse navbar-collapse' id='myNavbar'>
+<ul class='nav navbar-nav'>
+<li class='active'><a href='#'><strong style='color:rgb(255,255,255)'>HOME</strong></a></li>
+
+ <li class='dropdown'><a class="dropdown-toggle" data-toggle="dropdown" href='#'><strong style='color:rgb(255,255,255)'>NATIONAL</strong>
+<span class='caret'></span></a>
+<ul class='dropdown-menu'>
+<li><a href='#'>Breaking-News</a></li>
+<li class="divider"></li>
+<li><a href='#'>Politics</a></li>
+<li class="divider"></li>
+<li><a href='#'>Crime</a></li>
+<li class="divider"></li>
+<li><a href='#'>Weather</a></li>
+</ul>
+</li> 
+
+
+
+<li class='dropdown'><a class='dropdown-toggle' data-toggle='dropdown' href='#'><strong style='color:rgb(255,255,255)'>INTERNATIONAL</strong>
+<span class='caret'></span></a> 
+<ul class='dropdown-menu'>
+<li><a href='#'>Europe</a></li>
+<li class="divider"></li>
+<li><a href='#'>Asia</a></li>
+<li class="divider"></li>
+<li><a href='#'>America</a></li>
+<li class="divider"></li>
+<li><a href='#'>Middle east</a></li>
+<li class="divider"></li>
+<li><a href='#'>Autralia</a></li>
+</ul>
+</li>
+
+<li class='dropdown'><a class='dropdown-toggle' data-toggle='dropdown' href='#'><strong style='color:rgb(255,255,255)'>ENTERTAINMENT</strong>
+<span class='caret'></span></a>
+<ul class='dropdown-menu'>
+<li><a href='#'>Awards</a></li>
+<li class="divider"></li>
+<li><a href='#'>Movies</a></li>
+<li class="divider"></li>
+<li><a href='#'>Music</a></li>
+<li class="divider"></li>
+<li><a href='#'>Celebrity</a></li>
+</ul>
+</li>
+
+ 
+<li class='dropdown'><a class='dropdown-toggle' data-toggle='dropdown' href='#'><strong style='color:rgb(255,255,255)'>SPORTS</strong>
+<span class='caret'></span></a>
+<ul class='dropdown-menu'>
+<li><a href='#'>Cricket</a></li>
+<li class="divider"></li>
+<li><a href='#'>Football</a></li>
+<li class="divider"></li>
+<li><a href='#'>Hockey</a></li>
+<li class="divider"></li>
+<li><a href='#'>IPL</a></li>
+</ul>
+</li>
+ </ul>
+
+<ul class='nav navbar-nav navbar-right'><li> <a href='#'><span class='glyphicon glyphicon-user'></span> <strong style='color:rgb(255,255,255)'>SIGN UP</strong></a></li>
+<li > <a href='#'><span class='glyphicon glyphicon-log-in'></span> <strong style='color:rgb(255,255,255)'>LOG IN</strong></a></li>
+</ul>
+</div>
+</div>
+</nav>
+</div>
+</div>
+
+</br>
+
+<!--logo of news channnel-->
+
+<div class='container'>
+<div class='logopart'>
+<div class='row'>
+<div class='jumbotron container'>
+<div class='col-md-4'>
+<img src='#' class='img-circle img-responsive' />
+</div>
+<div class='col-md-6 col-md-offset-2'>
+<h2> Name of the News Website</h2>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<!--content part-->
+<div  class='body'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-9 border-right'>
+<img src='C:\Users\USER\Desktop\phase 2\pictures\BRITAINARIANAGRANDECONCERTBLAST.jpg' width='650'  />
+<div style='font-family:times'>
+<h2><strong style='font-size:38px'>Manchester blast deadliest terror attack </br>on Britain since 2005</strong> </h2>
+<p style='font-size:17px'>At least 22 people, including children — one as young as eight-years-old — were killed and 59 injured in a “callous” suicide attack in the northern English city of Manchester on Monday night. One person has been arrested in connection with the attack.
+
+As early as Tuesday morning Manchester police said they knew the identity of the attacker, but declined to name him publicly. A U.S. official, however, told Associated Press that the suicide bomber was Salman Abedi.
+
+The attack came exactly two months after a 52-year-old British citizen drove a car into pedestrians at Westminster and fatally stabbed an unarmed police officer.
+The bombing at the close of a pop concert at the popular Manchester Arena is the country’s deadliest terror attack since 2005, when 52 people were killed and several hundreds injured in a series of bomb blasts in central London.
+
+The Islamic State has claimed responsibility for the Manchester attack via social media, against what it described as “crusaders”. It described the attacker as a “soldier of the caliphate.”
+
+“The terrorists will never win,” declared Prime Minister Theresa May, who condemned the “callous terrorist attack.”She also attended a meeting of Britain’s emergency COBRA committee on Tuesday morning.
+
+Ms. May contrasted the cowardice of the attacker with the bravery of those who had rushed to help. Political parties in the UK have suspended campaigning for the June 8 general election until further notice.
+
+Police have released the identities of the first two victims — eight-year-old Saffie Rose Roussos, who had attended the concert with her mother and sister, and 18-year-old Georgina Callander. At least 12 children below the age of 16 are among the injured.No Indian among dead
+
+
+The Indian High Commission confirmed that no Indian citizens are among the dead, though details of those injured are yet to be confirmed.
+
+As the city struggled to get to grips with the events of Monday, and people began to return to work, panic gripped the city at points, as a shopping centre was evacuated by police officers.
+
+Police confirmed they had arrested a 23-year-old in south Manchester in connection with the attack and that a controlled explosion took place as part of the investigation.
+
+</br>
+
+
+</br>
+
+<div class='twiiting'>
+<strong style='font-size:18px'><p>“Broken. From the bottom of my heart,</br> I am so so sorry.</br> I don’t have the words.” </div>
+</br></strong></p><p style='font-size:20px'>&nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp  tweeted singer Ariana Grande after the attack.</p>
+<img src='C:\Users\USER\Desktop\phase 2\pictures\manchester-day.jpg'width='500' height='300'/>
+</br>
+</br>
+</br>
+<p style='font-size:17px'>The terror attack in Manchester that killed 22 people and injured 59 was perpetrated by a man wearing an improvised explosive device, and he died in the arena, according to Manchester police. They are investigating whether he acted on is own or was part of a network.
+
+The attack came as Britain’s terror level remained at “severe”, meaning an attack is highly likely but is not imminently expected. The incident follows a string of attacks on the European continent from Nice to Berlin, including in London two months ago, where six people, including the attacker, died.
+
+“The latest attack marked a clear escalation in the intensity of attacks,” said Otso Iho, senior analyst at Jane’s Terrorism and Insurgency Centre, of IHS Markit, in a note. “Alongside low-capability weapons like vehicles or knives, the use of explosives in the United Kingdom is more likely than elsewhere in Europe, as the availability of fire-arms is less prevalent due to strict gun control laws.”
+
+The attack took place late on Monday evening at Manchester Arena, Britain’s largest indoor arena, at the end of a concert of 23-year-old U.S. singer Ariana Grande, when the audience, which included many young children, was streaming out of the venue.
+
+“This was a barbaric attack, deliberately targeting some of the most vulnerable in our society — young people and children out at a pop concert,” said Home Secretary Amber Rudd, who attended a meeting of COBRA, Britain’s emergency committee, later on Tuesday morning, chaired by the Prime Minister.
+
+</p>
+
+
+
+</div>
+</div>
+
+<div class='col-md-3'>
+</div>
+</div>
+<hr>
+<div class='row'>
+<div class='col-md-9'>
+ <h4 style='font-family:georgia'><strong>REPLY TO THIS STORY</strong></h4>
+ 
+ 
+ <form>
+    <div class="form-group">
+      <label for="comment">Comment:</label>
+      <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+  </form>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+</div>
+<div class='col-md-3'>
+</div>
+
+</div>
+<div class='row'>
+<div class='col-md-4 '>
+<h3 style='font-family:georgia'>Share this story<h3>
+<a href='#' class='fa fa-facebook'></a>
+<a href='#' class='fa fa-twitter'></a>
+<a href='#' class='fa fa-google'></a>
+</div>
+
+
+</div>
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class='container-fluid'>
+<div class='footpart'>
+<div class='row'>
+<div class='col-md-3'>
+<h3 style='font-size:30px'>About Us</h3>
+<p>You are associated with india's most widely connected News channel.You</br> can get all the updates all over the</br> world just with your finger tips.</p>
+</br>
+<h4>Stay connected with us for more updates</h4>
+
+<a href='#' class='fa fa-facebook' id='round' ></a>
+<a href='#' class='fa fa-twitter' id='round'></a>
+<a href='#' class='fa fa-google' id='round'></a>
+</br>
+</br>
+</div>
+<div class='col-md-2 col-md-offset-2'>
+<h3 style='font-size:30px'>Short Links</h3>
+<ul>
+<li id='bar'><a href='#'>Home</a></li>
+<li id='bar'><a href='#'>International</a></li>
+<li id='bar'><a href='#'>National</a></li>
+<li id='bar'><a href='#'>Entertainment</a></li>
+<li id='bar'><a href='#'>Sports</a></li>
+</ul>
+</div>
+
+<div class='col-md-2 col-md-offset-3'>
+<h3 style='font-size:30px'>Contact Us</h3>
+<span class='glyphicon glyphicon-map-marker'></span>
+221 Baker Street </br> <strong style='font-size:22px'>&nbsp &nbsp NewDelhi,India</strong>
+</br>
+</br>
+<span class='glyphicon glyphicon-earphone'></span><strong style='font-size:18px'>+91-555-123456</strong>
+</br></br>
+<span class='glyphicon glyphicon-envelope'></span><a href='support@newsIndia.com'><strong style='font-size:18px'>support@newsIndia.com</strong></a>
+</div>
+
+</div>
+
+
+<div class='row'>
+<center><h4 style='font-size:24px'>copyright @2011-2018 Kaliprasad</h4></center>
+</div>
+</div>
+</div>
+
+
+
+
+</body>
+</html>
